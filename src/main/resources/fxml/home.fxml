@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.ats.app.controller.HomeController">
+    <children>
+        <VBox alignment="CENTER" spacing="15" AnchorPane.topAnchor="50" AnchorPane.leftAnchor="50">
+            <Button fx:id="btnHistorial" text="Historial" onAction="#handleHistorial"/>
+            <Button fx:id="btnIniciar" text="Iniciar ATS" onAction="#handleIniciar"/>
+            <Button fx:id="btnDiccionario" text="Base de Skills" onAction="#handleDiccionario"/>
+        </VBox>
+    </children>
+</AnchorPane>

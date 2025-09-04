@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.ats.app.controller.DictionaryController" spacing="10" alignment="CENTER">
+    <HBox spacing="10" alignment="CENTER">
+        <CheckBox fx:id="chkTech" text="Tech Skills" selected="true" onAction="#updateView"/>
+        <CheckBox fx:id="chkSoft" text="Soft Skills" selected="true" onAction="#updateView"/>
+        <CheckBox fx:id="chkProtocols" text="Protocols" selected="true" onAction="#updateView"/>
+        <CheckBox fx:id="chkTools" text="Tools" selected="true" onAction="#updateView"/>
+        <CheckBox fx:id="chkMethods" text="IT Methodologies" selected="true" onAction="#updateView"/>
+    </HBox>
+    <Button text="Buscar ejemplo" onAction="#handleSearch"/>
+    <TextArea fx:id="txtOutput" prefRowCount="20" prefColumnCount="50"/>
+</VBox>
